@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  13 SEP 2019 12:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  13 SEP 2019 13:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,37 +333,37 @@ arning (ext4): destination with the same identifier (name{page.1}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.25 \end{abstract}
+l.26 \end{abstract}
                     [1]
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--44
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
 
  []
 
@@ -371,26 +371,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 
-      [1] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+l.45 
+      [1]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
+ [2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
  (./WS77111cp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `WS77111cp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 5890 strings out of 492616
- 86613 string characters out of 6128982
+ 5891 strings out of 492616
+ 86626 string characters out of 6128982
  181754 words of memory out of 5000000
- 9734 multiletter control sequences out of 15000+600000
- 10810 words of font info for 40 fonts, out of 8000000 for 9000
+ 9735 multiletter control sequences out of 15000+600000
+ 11162 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,4n,27p,1072b,403s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,4n,27p,1053b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -398,11 +398,12 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WS77111cp.pdf (5 pages, 103097 bytes).
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on WS77111cp.pdf (4 pages, 110399 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 14 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
