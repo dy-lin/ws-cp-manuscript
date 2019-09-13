@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  13 SEP 2019 14:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  13 SEP 2019 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,7 +383,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--47
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--50
 
  []
 
@@ -391,32 +396,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 
+l.50 
       [1]
 <WS77111.png, id=32, 1204.5pt x 1204.5pt>
 File: WS77111.png Graphic file (type png)
 <use WS77111.png>
-Package pdftex.def Info: WS77111.png  used on input line 51.
-(pdftex.def)             Requested size: 382.27736pt x 382.26828pt.
+Package pdftex.def Info: WS77111.png  used on input line 54.
+(pdftex.def)             Requested size: 365.50655pt x 365.50648pt.
  [2 <./WS77111.png>] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 79.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 79.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./WS77111cp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 79.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 79.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `WS77111cp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 79.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 6986 strings out of 492616
- 106382 string characters out of 6128982
- 203140 words of memory out of 5000000
- 10812 multiletter control sequences out of 15000+600000
+ 6985 strings out of 492616
+ 106374 string characters out of 6128982
+ 203132 words of memory out of 5000000
+ 10811 multiletter control sequences out of 15000+600000
  11337 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,5n,39p,1124b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,5n,39p,1158b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
@@ -425,7 +434,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on WS77111cp.pdf (6 pages, 1066002 bytes).
+Output written on WS77111cp.pdf (6 pages, 1065927 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream

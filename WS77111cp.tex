@@ -16,40 +16,43 @@
 
 
 \title{\textbf{Complete chloroplast genome sequence of a white spruce (\textit{Picea glauca}) genotype from eastern Canada}}
-\author{Diana Lin, Lauren Coombe, Kristina Gagalova, Ren\'{e} L. Warren, Stewart A. Hammond, Heather Kirk, Pawan Pandoh, Yongjun Zhao, Richard A. Moore, Andrew J. Mungall, Carol Ritland, Barry Jaquish, Jean Bousquet, Steven J.M. Jones, Joerg Bohlmann, Inan\c{c} Birol}
+\author{Diana Lin, Lauren Coombe, Kristina Gagalova, Ren\'{e} L. Warren, Stewart A. Hammond, Heather Kirk, Pawan Pandoh, Yongjun Zhao, Richard A. Moore, Andrew J. Mungall, Carol Ritland, Barry Jaquish, Jean Bousquet, Steven J.M. Jones, Joerg Bohlmann, Inanc Birol}
 \date{March 20, 2019}					% Activate to display a given date or no date
 
 \begin{document}
 \maketitle
 \begin{abstract}
-Here we present the complete chloroplast genome sequence of white spruce (\textit{Picea glauca}, isolate WS77111), a coniferous tree widespread in the boreal forests of North America. This sequence contributes to genomic and phylogenetic analyses of the \textit{Picea} genus, part of ongoing research to understand their adaptation to environmental stress.
 
+Here we present the complete chloroplast genome sequence of white spruce (\textit{Picea glauca}, isolate WS77111), a coniferous tree widespread in the boreal forests of North America. This sequence contributes to genomic and phylogenetic analyses of the \textit{Picea} genus, part of ongoing research to understand their adaptation to environmental stress.
 
 \end{abstract}
 
 \section*{Genome Announcement}
-We sequenced, assembled and annotated the chloroplast genome of \textit{Picea glauca} (isolate WS77111), a dominant species in the Canadian boreal forest (1). Conifers such as \textit{P. glauca} have demonstrated great endurance to external stressors, from extreme climates and natural disasters to infestations, tolerating ice ages (2), forest fires (3), and invasive species (4). With the current threat of climate change, their ability to adapt is crucial to the survival of the species. This work contributes to future analyses of adaptation and resistance, which can inform genomic selection in spruce breeding programs.
+We sequenced, assembled, and annotated the chloroplast genome of \textit{Picea glauca} (isolate WS77111), a dominant species in the Canadian boreal forest (1). Conifers such as \textit{P. glauca} have demonstrated great endurance to external stressors, from extreme climates and natural disasters to infestations, tolerating ice ages (2), forest fires (3), and invasive species (4). With the current threat of climate change, their ability to adapt is crucial to the survival of the species. This work contributes to future analyses of adaptation and resistance, which can inform genomic selection in spruce breeding programs.
 \newline
 \par
-A \textit{P. glauca} (isolate WS77111) needle tissue sample was collected in southern Ontario (44\degree19'48"N, 78\degree9'0"W; elevation: 250m). The sample was sequenced at Canada’s Michael Smith Genome Sciences Centre (BCGSC).
+A \textit{P. glauca} (isolate WS77111) needle tissue sample was collected in southern Ontario (44\degree19'48"N, 78\degree9'0"W; elevation: 250m). The sample was sequenced at Canada’s Michael Smith Genome Sciences Centre (GSC).
 \newline
 \par
-To sequence the sample, genomic DNA libraries were constructed according to BCGSC plate-based and paired-end library protocols on a Microlab NIMBUS liquid handling robot (Hamilton, USA) and sonicated into 400-bp fragments, as previously described (5-6). Pooled libraries were sequenced with paired-end 250-bp reads on an Illumina HiSeq2500 instrument in rapid mode.
+To sequence the sample, genomic DNA libraries were constructed according to GSC plate-based and paired-end library protocols on a Microlab NIMBUS liquid handling robot (Hamilton, USA), and sonicated into 400-bp fragments, as previously described (5-6). Pooled libraries were sequenced with paired-end 250-bp reads on an Illumina HiSeq2500 instrument in rapid mode.
 \newline
 \par
-To assemble the chloroplast genome, we generated various random subsamples of the full read set (0.75, 1.5, 3, 6, 12, 25, 50, 200 million read pairs) and assembled each subset with ABySS v2.1.0 (7) (\textit{k}=128, \textit{kc}=3). The 1.5M, 3M and 6M read subsets produced the best ABySS assemblies, as determined by comparing these assemblies to the white spruce admix (PG29) chloroplast genome (NCBI accession NC\_028594.1) using QUAST v5.0.0 (8). We then performed additional ABySS assemblies with varying \textit{k} and \textit{kc} values using these 3 subsets (\textit{k}=96,112,128,144,160, \textit{kc}=3,4). The assembly with the fewest aligning contigs and fewest misassemblies (1.5M read pairs, \textit{k}=96, \textit{kc}=3) was chosen to scaffold further. Scaffolding the assembly using LINKS v1.8.5 (9) and the PG29 chloroplast genome joined the contigs into one piece. We then used Sealer (10) to close the remaining gaps. We modified the start position of our assembly to match the PG29 reference using BLAST v.2.7.1 (11) and polished the final assembly with Pilon v1.22 (12).
+To assemble the chloroplast genome, we generated various random subsamples of the full read set (0.75, 1.5, 3, 6, 12, 25, 50, 200 million read pairs), and assembled each subset with ABySS v2.1.0 (7) (\textit{k}=128, \textit{kc}=3). The 1.5M, 3M and 6M read subsets produced the best ABySS assemblies, as determined by comparing these assemblies to the white spruce admix (PG29) chloroplast genome (NCBI accession NC\_028594.1) using QUAST v5.0.0 (8). We then performed additional ABySS assemblies with varying \textit{k} and \textit{kc} parameters of the software using these three subsets (\textit{k}=96, 112, 128, 144, 160, \textit{kc}=3, 4). The assembly with the fewest aligning contigs and fewest misassemblies (1.5M read pairs, \textit{k}=96, \textit{kc}=3) was chosen for further scaffolding. Scaffolding the assembly using LINKS v1.8.5 (9) and the PG29 chloroplast genome joined the contigs into one piece. We then used Sealer (10) to close the scaffold gaps. We modified the start position of our assembly to match the PG29 reference using BLAST v.2.7.1 (11), and polished the final assembly with Pilon v1.22 (12).
 \newline
 \par
-The complete WS77111 chloroplast genome is 123,421-bp long, with 38.74\% GC content. Using GeSeq (13) with several other \textit{Picea} chloroplast genomes as references, we annotated 114 genes: 74 protein-coding, 36 tRNA-coding, and 4 rRNA-coding genes. Only \textit{rps12}, \textit{petB}, \textit{petD}, \textit{rpl16}, and \textit{psbZ} required manual annotation. The genome map in Figure \ref{fig:ogdraw} was generated using OGDRAW v1.2 (14). The assembly of this new chloroplast genome will enable further analysis of \textit{Picea} phylogeny and genetics.
+The complete WS77111 chloroplast genome is 123,421-bp long, with 38.74\% GC content. Using GeSeq (13) with several other \textit{Picea} chloroplast genomes as reference, we annotated 114 genes: 74 protein-coding, 36 tRNA-coding, and four rRNA-coding genes. Only \textit{rps12}, \textit{petB}, \textit{petD}, \textit{rpl16}, and \textit{psbZ} required manual annotation. The genome map in Figure \ref{fig:ogdraw} was generated using OGDRAW v1.2 (14). 
+\newline
+\par
+The assembly of this new chloroplast genome will enable further analysis of \textit{Picea} phylogeny and genetics.
 \newline
 \newline
-\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea glauca}, isolate WS77111 is available from Genbank under accession \href{https://www.ncbi.nlm.nih.gov/nuccore/MK174379}{MK174379} and the raw reads are in the SRA under \href{https://www.ncbi.nlm.nih.gov/sra/SRX525336}{SRX525336}. The annotations used as references were \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis }(\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152}).
+\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea glauca}, isolate WS77111 is available from Genbank under accession \href{https://www.ncbi.nlm.nih.gov/nuccore/MK174379}{MK174379}, and the raw reads are in the SRA under \href{https://www.ncbi.nlm.nih.gov/sra/SRX525336}{SRX525336}. The annotations used as references were from \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis }(\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152}).
 
 \section*{Figures and Data}
 \begin{figure}[h]
 \centering
-\includegraphics[width=0.889\textwidth]{WS77111}
-\caption{\textbf{The complete chloroplast genome of \textit{Picea glauca}, isolate WS77111.} The \textit{Picea glauca} chloroplast genome was annotated using GeSeq (13) and plotted using OGDRAW (14). The inner grey circle illustrates the GC content of the genome.}
+\includegraphics[width=0.85\textwidth]{WS77111}
+\caption{\textbf{The complete chloroplast genome of \textit{Picea glauca}, isolate WS77111.} The \textit{Picea glauca} chloroplast genome was annotated using GeSeq (13), and plotted using OGDRAW (14). The inner grey circle illustrates the GC content of the genome.}
 \label{fig:ogdraw}
 \end{figure}
 
