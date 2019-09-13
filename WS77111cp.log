@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  12 SEP 2019 23:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.18)  13 SEP 2019 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**WS77111cp-drafts.tex
-(./WS77111cp-drafts.tex
+**WS77111cp.tex
+(./WS77111cp.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
@@ -214,8 +214,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip45
 )
-(./WS77111cp-drafts.aux)
-\openout1 = `WS77111cp-drafts.aux'.
+(./WS77111cp.aux)
+\openout1 = `WS77111cp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -322,64 +322,84 @@ LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
 
-(./WS77111cp-drafts.out) (./WS77111cp-drafts.out)
+(./WS77111cp.out) (./WS77111cp.out)
 \@outlinefile=\write3
-\openout3 = `WS77111cp-drafts.out'.
+\openout3 = `WS77111cp.out'.
 
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (7.65718pt too wide) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Overfull \hbox (7.65718pt too wide) in paragraph at lines 29--31
 []\OT1/cmr/m/n/10.95 Genomic DNA li-braries were con-structed ac-cord-ing to Br
 itish Columbia Can-cer's Genome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--39
+
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 A
-      fter LINKS, both assemblies had combined the chloroplast genome into o...
-[1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
+l.39 
+      [1]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
- (./WS77111cp-drafts.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
-Package rerunfilecheck Info: File `WS77111cp-drafts.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+ (./WS77111cp.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package rerunfilecheck Info: File `WS77111cp.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 38.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 40.
  ) 
 Here is how much of TeX's memory you used:
- 5876 strings out of 492616
- 86598 string characters out of 6128982
- 181753 words of memory out of 5000000
- 9732 multiletter control sequences out of 15000+600000
- 10502 words of font info for 39 fonts, out of 8000000 for 9000
+ 5878 strings out of 492616
+ 86531 string characters out of 6128982
+ 182753 words of memory out of 5000000
+ 9733 multiletter control sequences out of 15000+600000
+ 10810 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,5n,27p,2053b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on WS77111cp-drafts.pdf (3 pages, 87299 bytes).
+ 28i,4n,27p,1667b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on WS77111cp.pdf (3 pages, 97972 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
