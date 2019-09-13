@@ -56,7 +56,7 @@
 \begin{document}
 \maketitle
 
-\noindent Running Head: Complete chloroplast Genome of a \textit{Picea glauca} isolate\newline
+\noindent Running Head: Complete chloroplast genome of a \textit{Picea glauca} isolate\newline
 
 \noindent \#Address correspondence to Inanc Birol, \href{mailto:ibirol@bcgsc.ca}{ibirol@bcgsc.ca}\newline
 
@@ -80,22 +80,22 @@ A \textit{P. glauca} (isolate WS77111) needle tissue sample was collected in sou
 To sequence the sample, genomic DNA libraries were constructed according to GSC plate-based and paired-end library protocols on a Microlab NIMBUS liquid handling robot (Hamilton, USA), and sonicated into 400-bp fragments, as previously described (5-6). Pooled libraries were sequenced with paired-end 250-bp reads on an Illumina HiSeq2500 instrument in rapid mode.
 \newline
 \par
-To assemble the chloroplast genome, we generated various random subsamples of the full read set (0.75, 1.5, 3, 6, 12, 25, 50, 200 million read pairs), and assembled each subset with ABySS v2.1.0 (7) (\textit{k}=128, \textit{kc}=3). The 1.5M, 3M and 6M read subsets produced the best ABySS assemblies (\textit{N\textsubscript{50}}=3692, 1313, 949 respectively), as determined by comparing these assemblies to the white spruce admix (PG29) chloroplast genome (NCBI accession NC\_028594.1 (8)) using QUAST v5.0.0 (9). We then performed additional ABySS assemblies with varying \textit{k} and \textit{kc} parameters of the software using these three subsets (\textit{k}=96, 112, 128, 144, 160, \textit{kc}=3, 4). The assembly with the fewest aligning contigs and fewest misassemblies (1.5M read pairs, \textit{k}=96, \textit{kc}=3) was chosen for further scaffolding. Scaffolding the assembly using LINKS v1.8.5 (10) and the PG29 chloroplast genome joined the contigs into one piece. We then used Sealer (11) to close the scaffold gaps, as similarly done before (12). We modified the start position of our assembly to match the PG29 reference using BLAST v.2.7.1 (13), and polished the final assembly with Pilon v1.22 (14).
+To assemble the chloroplast genome, we generated various random subsamples of the full read set (0.75, 1.5, 3, 6, 12, 25, 50, 200 million read pairs), and assembled each subset with ABySS v2.1.0 (7) (\textit{k}=128, \textit{kc}=3). The 1.5M, 3M and 6M read subsets produced the best ABySS assemblies (\textit{N50}=3692, 1313, 949 respectively), as determined by comparing these assemblies to the white spruce admix (PG29) chloroplast genome (NCBI accession NC\_028594.1; (8)) using QUAST v5.0.0 (9). We then performed additional ABySS assemblies with varying \textit{k} and \textit{kc} parameters using these three subsets (\textit{k}=96, 112, 128, 144, 160, \textit{kc}=3, 4). The assembly with the fewest aligning contigs and fewest misassemblies (1.5M read pairs, \textit{k}=96, \textit{kc}=3) was chosen for further scaffolding. Scaffolding the assembly using LINKS v1.8.5 (10) and the PG29 chloroplast genome joined the contigs into one piece. We then used Sealer (11) to close the scaffold gaps. We modified the start position of our assembly to match the PG29 reference using BLAST v.2.7.1 (12), and polished the final assembly with Pilon v1.22 (13).
 \newline
 \par
-The complete WS77111 chloroplast genome is 123,421-bp long, with 38.74\% GC content. Using GeSeq (15) with several other \textit{Picea} chloroplast genomes as reference, we annotated 114 genes: 74 protein-coding, 36 tRNA-coding, and four rRNA-coding genes. Only \textit{rps12}, \textit{petB}, \textit{petD}, \textit{rpl16}, and \textit{psbZ} required manual annotation. The genome map in Figure \ref{fig:ogdraw} was generated using OGDRAW v1.2 (16). 
+The complete WS77111 chloroplast genome is 123,421-bp long, with 38.74\% GC content. Using GeSeq (14) with several other \textit{Picea} chloroplast genomes as reference (8, 15), we annotated 114 genes: 74 protein-coding, 36 tRNA-coding, and four rRNA-coding genes. Only \textit{rps12}, \textit{petB}, \textit{petD}, \textit{rpl16}, and \textit{psbZ} required manual annotation. The genome map in Figure \ref{fig:ogdraw} was generated using OGDRAW v1.2 (16). 
 \newline
 \par
 The assembly of this new chloroplast genome will enable further analysis of \textit{Picea} phylogeny and genetics.
 \newline
 \newline
-\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea glauca}, isolate WS77111 is available from Genbank under accession \href{https://www.ncbi.nlm.nih.gov/nuccore/MK174379}{MK174379}, and the raw reads are in the SRA under \href{https://www.ncbi.nlm.nih.gov/sra/SRX525336}{SRX525336}. The annotations used as references were from \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis }(\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152}).
+\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea glauca}, isolate WS77111 is available from Genbank under accession \href{https://www.ncbi.nlm.nih.gov/nuccore/MK174379}{MK174379}, and the raw reads are in the SRA under \href{https://www.ncbi.nlm.nih.gov/sra/SRX525336}{SRX525336}. The annotations used as references were from \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis }(\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152},\href{https://www.ncbi.nlm.nih.gov/nuccore/KU215903.2}{KU215903}).
 
 \section*{Figures and Data}
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.78\textwidth]{WS77111}
-\caption{\textbf{The complete chloroplast genome of \textit{Picea glauca}, isolate WS77111.} The \textit{Picea glauca} chloroplast genome was annotated using GeSeq (15), and plotted using OGDRAW (16). The inner grey circle illustrates the GC content of the genome.}
+\caption{\textbf{The complete chloroplast genome of \textit{Picea glauca}, isolate WS77111.} The \textit{Picea glauca} chloroplast genome was annotated using GeSeq (14), and plotted using OGDRAW (16). The inner grey circle illustrates the GC content of the genome.}
 \label{fig:ogdraw}
 \end{figure}
 
@@ -117,10 +117,10 @@ genomes using a Bloom filter. Genome Res 27:768-777.
 \item Mikheenko A, Prjibelski A, Saveliev V, Antipov D, Gurevich A. 2018. Versatile genome assembly evaluation with QUAST-LG. Bioinformatics 34:i142–i150.
 \item Warren RL, Yang C, Vandervalk BP, Behsaz B, Lagman A, Jones SJM, Birol I. 2015. LINKS: Scalable, alignment-free scaffolding of draft genomes with long reads. Gigascience 4:35-35.
 \item Paulino D, Warren RL, Vandervalk BP, Raymond A, Jackman SD, Birol I. 2015. Sealer: a scalable gap-closing application for finishing draft genomes. BMC Bioinformatics 16.
-\item Coombe L, Warren RL, Jackman SD, Yang C, Vandervalk BP, Moore RA, Pleasance S, Coope RJ, Bohlmann J, Holt RA, Jones SJM, Birol I. 2016. Assembly of the Complete Sitka Spruce Chloroplast Genome Using 10X Genomics’ GemCode Sequencing Data. PLoS One 11.
 \item Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. 1990. Basic local alignment search tool. J Mol Biol 215:403-410.
 \item Walker BJ, Abeel T, Shea T, Priest M, Abouelliel A, Sakthikumar S, Cuomo CA, Zeng Q, Wortman J, Young SK, Earl AM. 2014. Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PloS One 9:e112963-e112963.
 \item Tillich M, Lehwark P, Pellizzer T, Ulbricht-Jones ES, Fischer A, Bock R, Greiner S. 2017. GeSeq – versatile and accurate annotation of organelle genomes. Nucleic Acids Res 45.
+\item Coombe L, Warren RL, Jackman SD, Yang C, Vandervalk BP, Moore RA, Pleasance S, Coope RJ, Bohlmann J, Holt RA, Jones SJM, Birol I. 2016. Assembly of the Complete Sitka Spruce Chloroplast Genome Using 10X Genomics’ GemCode Sequencing Data. PLoS One 11.
 \item Lohse M, Drechsel O, Kahlau S, Bock R. 2013. OrganellarGenomeDRAW--a suite of tools for generating physical maps of plastid and mitochondrial genomes and visualizing expression data sets. Nucleic Acids Res 41:W575-W581.
 \end{enumerate}
 
