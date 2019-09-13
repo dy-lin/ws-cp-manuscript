@@ -16,25 +16,48 @@
 
 \title{\textbf{Complete chloroplast genome sequence of a white spruce (\textit{Picea glauca}) genotype from eastern Canada}}
 \author{TBD}
-\date{January 24, 2019}					% Activate to display a given date or no date
+\date{February 11, 2019}					% Activate to display a given date or no date
 
 \begin{document}
 \maketitle
+\begin{abstract}
+\textit{Picea glauca}, is a white spruce tree native to eastern Canada. Here we present the complete chloroplast genome sequence of a \textit{Picea glauca}, isolate WS77111. This sequence contributes data to the study of the evolutionary phylogeny of the existing \textit{Picea} organisms, and consequently, facilitating the improvement of Canada’s forestry industry.
+\end{abstract}
 
 \section*{Genome Announcement}
+As a part of the \href{http://spruce-up.ca/en/}{SpruceUp} (1) and \href{https://www.smartforests.ca}{SMarTForests} (2) projects, we sequenced, assembled and annotated the chloroplast genome of \textit{Picea glauca}, isolate WS77111. This work contributes to improving the genomic selection in spruce breeding programs, a vital part of Canada’s forestry industry.
+\newline
+\par
+The \textit{Picea glauca} isolate WS77111 tissue sample of the needles was collected in southern Ontario (44\degree19'48"N, 78\degree9'0"W; elevation: 250m), from Universit\'{e} Laval. Subsequently, the sample was sequenced at the \href{http://www.bcgsc.ca}{British Columbia Genome Sciences Centre} (BCGSC).
+\newline
+\par
+To sequence the sample, genomic DNA libraries were constructed according to BCGSC plate-based and paired-end library protocols on a Microlab NIMBUS liquid handling robot (Hamilton, USA). Briefly, 1$\mu$g of high molecular weight genomic DNA was sonicated (Covaris LE220) in 62.5$\mu$L volume to 400-bp. Sonicated DNA was purified with PCRClean DX magnetic beads (Aline Biosciences). The DNA fragments were end-repaired, phosphorylated and bead-purified in preparation for A-tailing using a custom NEB Paired-End Sample Prep Premix Kit (New England Biolabs). Illumina sequencing adapters were ligated overnight at 16\degree C while adapter ligated products were bead purified and enriched with 6 cycles of PCR using primers containing a hexamer index that enables library pooling. Pooled libraries were sequenced with paired-end 250-bp reads on an Illumina HiSeq2500 instrument in rapid mode.
+\newline
+\par
+For the chloroplast genome assembly, we subsampled the reads into a few million read pairs. ABySS v2.1.0 (3) assembled each subset. Then, BWA v0.7.17 (4) filtered for contigs greater than 500bp that aligned with the reference chloroplast, \textit{Picea glauca} isolate PG29. QUAST v5.0.0 (5) revealed that the 1.5M subset contained zero misassemblies (n=14; N50=18371), while the 6M subset contained the least contigs (n=6; N50=43759). Therefore, we selected the 1.5M, 6M and 3M subset (middle ground) for a parameter sweep, where the 3M subset was eliminated. After LINKS v1.8.5 (6), both assemblies combined the contigs into one piece. QUAST alluded that the 1.5M subset contained 12 gaps, whereas the 6M contained five. We then employed ABySS-sealer to close the gaps in both subsets, discovering that 1.5M subset contained the fewest gaps. We maintained our product consistency by modifying our assembly to match the reference using BLAST v.2.7.1 (7) and ultimately polished the final assembly with a runthrough from Pilon v1.22 (8).
+\newline
+\par
+The WS77111 chloroplast genome is 123,421-bp in length, with a GC content of 38.74\%. GeSeq (9) annotated 114 genes: 74 protein-coding, 36 tRNA-coding, and four rRNA-coding genes, using all available \textit{Picea} chloroplast genomes as reference. Only five genes required manual annotation: \textit{rps12}, \textit{petB}, \textit{petD}, \textit{rpl16}, and \textit{psbZ}. OGDRAW v1.2 (10) drew the circular chloroplast genome map. By adding this new chloroplast genome to the available resource pool, further analysis of phylogeny and evolution of these spruce trees can be conducted to achieve the project’s objective.
+\newline
+\newline
+\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea glauca}, isolate WS77111 can be found in Genbank under MK174379. The tissue samples used can be found with BioSample: \href{https://www.ncbi.nlm.nih.gov/biosample/?term=SAMN02736787}{SAMN02736787} and BioProject: \href{https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA242552}{PRJNA242552}. The annotation NCBI references are as follows: \textit{Picea abies} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_021456}{NC\_021456}), \textit{Picea asperata} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_032367}{NC\_032367}), \textit{Picea glauca} isolate PG29 (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_028594}{NC\_028594}), \textit{Picea morrisonicola} (\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_016069}{NC\_016069}), and \textit{Picea sitchensis }(\href{https://www.ncbi.nlm.nih.gov/nuccore/NC_011152}{NC\_011152}).
 
-The \textit{P. glauca} isolate WS77111 sample was collected from Otonabee-South Monaghan (44\degree 19' 48" N 78\degree 9' 0" W; elevation of 250 m) in southern Ontario. The tissue sample collected was from the needles of the white spruce tree, supplied by John MacKay of Universite Laval. These tissue samples were then sequenced at the British Columbia Cancer’s Genome Sciences Centre as an objective of the SpruceUp and SMarTForests project.
-\newline
-\par
-Genomic DNA libraries were constructed according to British Columbia Cancer’s Genome Sciences Centre plate-based and paired-end library protocols on a Microlab NIMBUS liquid handling robot (Hamilton, USA). Briefly, 1 $\mu$g of high molecular weight genomic DNA was sonicated (Covaris LE220) in 62.5 $\mu$L volume to 400 bp. Sonicated DNA was purified with PCRClean DX magnetic beads (Aline Biosciences). The DNA fragments were end-repaired, phosphorylated and bead purified in preparation for A-tailing using a custom NEB Paired-End Sample Prep Premix Kit (New England Biolabs).  Illumina sequencing adapters were ligated overnight at 16oC and adapter ligated products bead purified and enriched with 6 cycles of PCR using primers containing a hexamer index that enables library pooling. Pooled libraries were sequenced with paired-end 250 bp reads on an Illumina HiSeq2500 instrument in rapid mode.
-\newline
-\par
-To assemble the complete chloroplast genome, these reads were subsampled in the sizes of read pairs (in millions). Each subset was then assembled using ABySS v2.1.0. Then, each assembly was filtered for the chloroplast genome by alignment to the reference chloroplast genome, the \textit{Picea glauca} isolate PG29 complete chloroplast genome (Genbank KT634228), where only contigs greater or equal to 500 bp that aligned were kept, using BWA v0.7.17. The resulting contigs were pieces of WS77111 chloroplast, assessed using QUAST v5.0.2 and the reference chloroplast genome. Of all the subsets, the 1.5M subset had the least number of misassemblies, with its chloroplast genome in 14 pieces, while the 6M subset had the least number of pieces at 6, but contained 1 misassembly. For this reason, the 1.5M, 6M and the 3M subset (subset in between) were chosen to advance for an ABySS parameter sweep. Of these consequent assemblies, two were chosen to advance to the next step: 1.5M and 6M assembly. LINKS v1.8.5 revealed that the 1.5M and 6M subset contained the fewest pieces and misassemblies. After LINKS, both assemblies had combined the chloroplast genome into one single piece (the largest resulting contig). QUAST analysis showed that the 1.5M subset contained 12 gaps, and the 6M one contained 5 gaps. After using Sealer (part of ABySS) to close the gaps, 1.5M subset had the fewest remaining gaps and thereby determined to be the best assembly. This assembly was then modified to have the same start and end as the reference chloroplast genome using BLAST v.2.7.1. Finally, Pilon v1.22 was run to polish the final assembly.
-\newline
-\par
-The WS77111 chloroplast genome is 123,421bp in length, with a GC content of 38.74\%. It has a total of 114 genes: 74 protein-coding genes, 36 tRNA-coding genes, 4 rRNA-coding genes. This chloroplast genome was annotated using GeSeq, with all available \textit{Picea} NCBI RefSeq chloroplast genomes as reference genomes. Five genes required manual annotation: \textit{rps12}, \textit{petB}, \textit{petD}, \textit{rpl16}, and \textit{psbZ}. OGDRAW v1.2 was draw to visualize the circular chloroplast genome map. Adding the chloroplast genome of WS77111 to the resource pool of available \textit{Picea} chloroplasts provides valuable insight to the phylogeny and evolution of these spruce trees.
-\newline
-\newline
-\textbf{Accession number(s).} The complete chloroplast genome sequence of \textit{Picea glauca}, isolate WS77111 can be found in NCBI Genbank under the accession number MK174379. The tissue samples used can be found under BioSample: SAMN02736787 and BioProject: PRJNA242552. The NCBI accession numbers of the other \textit{Picea} chloroplasts used in annotation are as follows: \textit{Picea abies} (NC\_021456), \textit{Picea asperata} (NC\_032367), \textit{Picea glauca} (NC\_028594), \textit{Picea morrisonicola} (NC\_016069), and \textit{Picea sitchensis }(NC\_011152).
+\section*{Acknowledgements}
+This work was conducted as a part of the SpruceUp and SMarTForests projects.
+
+\section*{References}
+
+\begin{enumerate}
+\setcounter{enumi}{2}
+\item Jackman SD, Vandervalk BP, Mohamadi H, Chu J, Yeo S, Hammond SA, Jahesh G, Khan H, Coombe L, Warren RL, Birol I. 2017. ABySS 2.0: resource-efficient assembly of large 
+genomes using a Bloom filter. Genome research 27:768-777.
+\item Li H, Durbin R. 2009. Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics (Oxford, England) 25:1754-1760.
+\item Gurevich A, Saveliev V, Vyahhi N, Tesler G. 2013. QUAST: quality assessment tool for genome assemblies. Bioinformatics (Oxford, England) 29:1072-1075.
+\item Warren RL, Yang C, Vandervalk BP, Behsaz B, Lagman A, Jones SJM, Birol I. 2015. LINKS: Scalable, alignment-free scaffolding of draft genomes with long reads. GigaScience 4:35-35.
+\item Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. 1990. Basic local alignment search tool. Journal of Molecular Biology 215:403-410.
+\item Walker BJ, Abeel T, Shea T, Priest M, Abouelliel A, Sakthikumar S, Cuomo CA, Zeng Q, Wortman J, Young SK, Earl AM. 2014. Pilon: an integrated tool for comprehensive microbial variant detection and genome assembly improvement. PloS one 9:e112963-e112963.
+\item Tillich M, Lehwark P, Pellizzer T, Ulbricht-Jones ES, Fischer A, Bock R, Greiner S. 2017. GeSeq - versatile and accurate annotation of organelle genomes. Nucleic acids research 45:W6-W11.
+\item Lohse M, Drechsel O, Kahlau S, Bock R. 2013. OrganellarGenomeDRAW--a suite of tools for generating physical maps of plastid and mitochondrial genomes and visualizing expression data sets. Nucleic acids research 41:W575-W581.
+\end{enumerate}
 
 \end{document}  
